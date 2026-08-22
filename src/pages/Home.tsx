@@ -120,7 +120,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-white tracking-widest">Hey I'm <span className="text-red-600">Prajwal</span></h3>
                 <h1 className="text-5xl sm:text-7xl font-black text-white tracking-tight leading-[1.1]">
                   {pageContent.heroTitle || "I'm a"} <br />
-                  <Typewriter texts={["YOUTUBER", "DEVELOPER", "DESIGNER", "ENGINEER"]} />
+                  <Typewriter texts={["YOUTUBER", "DEVELOPER", "DESIGNER", "STUDENT"]} />
                 </h1>
                 <p className="text-lg text-gray-400 leading-relaxed max-w-xl">
                   {pageContent.heroSubtitle || "Creating high-fidelity tech tutorials, programming modules, and software architecture guides in Kannada. Join our community of 100k+ builders."}
