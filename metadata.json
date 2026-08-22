@@ -1,0 +1,6 @@
+{
+  "name": "Hackbits Kannada",
+  "description": "Official website for the Hackbits Kannada YouTube channel, featuring tutorials, tech news, and coding tips in Kannada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-immersive-bg: #000000;
+  --color-immersive-card: #0a0a0a;
+  --color-immersive-accent: #ff0033; /* Vibrant red */
+  --color-immersive-accent-muted: rgba(255, 0, 51, 0.1);
+}
+
+body {
+  background-color: var(--color-immersive-bg);
+  color: #ffffff;
+}
+
+::selection {
+  background-color: var(--color-immersive-accent-muted);
+  color: var(--color-immersive-accent);
+}

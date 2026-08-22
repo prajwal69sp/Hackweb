@@ -1,0 +1,39 @@
+{
+  "collections": {
+    "videos": {
+      "id": "string",
+      "title": "string",
+      "thumbnail": "string",
+      "youtubeUrl": "string",
+      "category": "string",
+      "duration": "string",
+      "date": "string",
+      "createdAt": "timestamp"
+    },
+    "scripts": {
+      "title": "string",
+      "description": "string",
+      "category": "string",
+      "language": "string",
+      "downloadUrl": "string",
+      "createdAt": "timestamp"
+    },
+    "tools": {
+      "title": "string",
+      "description": "string",
+      "category": "string",
+      "status": "string",
+      "url": "string",
+      "createdAt": "timestamp"
+    },
+    "stats": {
+      "label": "string",
+      "value": "string",
+      "order": "number"
+    },
+    "pages": {
+      "id": "string",
+      "content": "map"
+    }
+  }
+}
